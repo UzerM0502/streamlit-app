@@ -44,8 +44,8 @@ class Simulation:
 
         return portfolio_sims
 
-
-sim = Simulation('AAPL')
+stock ='AAPL'
+sim = Simulation(stock)
 sim = sim.mc_sim_stock_port()
 
 # Plot the results
